@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/SearchIcon"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@mipmap/ic_search"
+        app:layout_constraintStart_toStartOf="@+id/productImage"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <ImageView
+        android:id="@+id/cartLogo"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@mipmap/ic_cart"
+        app:layout_editor_absoluteX="306dp"
+        app:layout_editor_absoluteY="60dp"
+        />
+    
+    
+    <ImageView
+        android:id="@+id/productImage"
+        android:layout_width="292dp"
+        android:layout_height="176dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/oil_foreground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="128dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="102dp"
+        android:layout_height="27dp"
+        android:backgroundTint="#FF9900"
+        android:text="official store"
+        android:textAlignment="center"
+        android:textSize="17px"
+        app:layout_constraintStart_toStartOf="@+id/productImage"
+        tools:layout_editor_absoluteY="327dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="102dp"
+        android:layout_height="27dp"
+        android:backgroundTint="#0418CE"
+        android:text="free delivery"
+        android:textAlignment="center"
+        android:textSize="17px"
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="327dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="297dp"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:text="Discusses the factors that make a logo successful by analyzing the research, brainstorming, sketching, and stylistic experiments that led to its development"
+        android:textColor="#808080"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="@+id/productImage"
+        tools:layout_editor_absoluteY="370dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="120$"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        tools:layout_editor_absoluteY="466dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1̶4̶9̶$̶"
+        android:textStyle="bold"
+        android:textColor="#5B5959"
+        app:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="466dp" />
+
+    <Button
+        android:id="@+id/offersButton"
+        android:layout_width="327dp"
+        android:layout_height="43dp"
+        android:backgroundTint="#FFBE5B"
+        android:text="Offers"
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="495dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="<   various installment options"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        tools:layout_editor_absoluteY="538dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="<   monthly installment"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        tools:layout_editor_absoluteY="564dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="<   jumia birthday"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        tools:layout_editor_absoluteY="593dp" />
+
+    <Button
+        android:id="@+id/btnAddToCart"
+        android:layout_width="219dp"
+        android:layout_height="42dp"
+        android:backgroundTint="#FF9900"
+        android:text="Add To Cart"
+        app:layout_constraintStart_toStartOf="@+id/offersButton"
+        tools:layout_editor_absoluteY="625dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="12dp"
+        android:src="@mipmap/ic_call"
+        app:layout_constraintStart_toEndOf="@+id/btnAddToCart"
+        tools:layout_editor_absoluteY="625dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:src="@mipmap/ic_house"
+        app:layout_constraintEnd_toEndOf="@+id/offersButton"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        tools:layout_editor_absoluteY="625dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

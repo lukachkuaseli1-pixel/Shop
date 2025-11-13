@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="55dp"
+        android:layout_height="36dp"
+        android:text="Cart"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="69dp"
+        android:layout_height="72dp"
+        android:src="@drawable/ic_cart"
+        android:tint="#FF9900"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="265dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="311dp"
+        android:layout_height="92dp"
+        android:gravity="center"
+        android:text="Discusses the factors that make a logo successful by analyzing the research, brainstorming, sketching, and stylistic experiments that led to its development"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="367dp"
+        android:textColor="#5B5959"/>
+
+    <Button
+        android:id="@+id/btnStartShopping"
+        android:layout_width="306dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#FF9900"
+        android:text="Start Shopping"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="501dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
